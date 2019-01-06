@@ -28,6 +28,13 @@ To compile and run by doing the following from the project top directory.
 
 ## Project description:
 
+Particle filters are the realisation of Bayes filters or Markov localisation filter. Particle filters concepts are mainly used to solve the localisation problems
+
+In the picture below, red dots are the discrete guesses of where the car/robot might be. 
+Each red dot has x coordinates, y coordinates, and orientation. 
+Particle filter is the set of several thousand such guesses comprise approximate representation of the posterior of the robot. 
+In the beginning, particles are uniformly spread, but filter make them survive in proportion to how consistent is the particles with sensor measurements and this called the particle weight.
+
 ![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/3.gif) 
 
 # The input data:
@@ -128,6 +135,9 @@ You can find the inputs to the particle filter in the `data` directory.
 
 
 # Steps to implement particle filter
+1- Initialisation step: 
+In the initialization step I estimated the car/robot position from GPS input. 
+
 
 
 ![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/5.png)
