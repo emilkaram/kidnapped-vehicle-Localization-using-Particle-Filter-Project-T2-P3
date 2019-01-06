@@ -127,6 +127,24 @@ You can find the inputs to the particle filter in the `data` directory.
 > * Map data provided by 3D Mapping Solutions GmbH.
 
 
+# Steps to implement particle filter
+
+
+![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/5.png)
+
+
+![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/6.png)
+ 
+ 
+ ![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/7.png)
+ 
+ ![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/10.png)
+ 
+ 
+ ![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/8.png)
+ 
+ 
+ ![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/9.png)
  
 
 # Conclusion:
