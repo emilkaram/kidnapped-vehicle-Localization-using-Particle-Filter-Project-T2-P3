@@ -139,12 +139,12 @@ In the initialization step I estimated the car/robot position from GPS input.
 
 
 2-Prediction step: 
-During the prediction step we add the control input (yaw rate & velocity) for all particles.
+During the prediction step I added the control input (yaw rate & velocity) for all particles.
 
 ![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/5.png)
 
 3-Update step: 
-During the update step, we update our particle weights using map landmark positions and feature measurements.
+During the update step, I updated the particle weights using map landmark positions and feature measurements.
 Update step has three sub-steps:
 a- Transformation
 
