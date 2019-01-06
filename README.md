@@ -28,7 +28,7 @@ To compile and run by doing the following from the project top directory.
 
 ## Project description:
 
-![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/3.png) 
+![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/3.gif) 
 
 # The input data:
 INPUT: values provided by the simulator to the c++ program
