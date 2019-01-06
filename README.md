@@ -27,7 +27,8 @@ To compile and run by doing the following from the project top directory.
 5. ./particle_filter
 
 ## Project description:
- 
+
+![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/3.jpg) 
 
 # The input data:
 INPUT: values provided by the simulator to the c++ program
@@ -82,6 +83,7 @@ I built out the methods in `particle_filter.cpp` until the simulator output says
 ```
 Success! Your particle filter passed!
 ```
+![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/2.jpg)
 
 # Implementing the Particle Filter
 The directory structure of this repository is as follows:
@@ -108,7 +110,7 @@ root
 ```
 
  
-
+![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/4.jpg)
  
 
 ## Inputs to the Particle Filter
@@ -124,8 +126,6 @@ You can find the inputs to the particle filter in the `data` directory.
 
 > * Map data provided by 3D Mapping Solutions GmbH.
 
-## Success Criteria
-If your particle filter passes the current grading code in the simulator (you can make sure you have the current version at any time by doing a `git pull`), then you should pass!
 
  
 
@@ -133,4 +133,7 @@ If your particle filter passes the current grading code in the simulator (you ca
 1. **Accuracy**: my particle filter successfully localized the vehicle position and yaw to within the values specified in the parameters `max_translation_error` and `max_yaw_error` in `src/main.cpp`.
 
 2. **Performance**: My particle filter completed execution within the time of 100 seconds.
+
+![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/2.jpg)
+
  
