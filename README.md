@@ -167,14 +167,10 @@ c - Update Weights
 
 
 4-Resample step: 
-During resampling we will resample M times (M is range of 0 to length_of_particleArray) drawing a particle i (i is the particle index) proportional to its weight . Resampling wheel is used at this step.
+During resampling I resampled number of particles drawing a particle i (i is the particle index) proportional to its weight . 
+Resampling wheel is used at this step.
 
-![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/6.png)
- 
- 
- 
- 
- ![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/10.png)
+![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/10.png)
  
  
 
