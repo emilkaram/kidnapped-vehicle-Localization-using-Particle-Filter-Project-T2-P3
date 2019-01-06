@@ -116,10 +116,6 @@ root
     |   particle_filter.h
 ```
 
- 
-![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/4.png)
- 
-
 ## Inputs to the Particle Filter
 You can find the inputs to the particle filter in the `data` directory.
 
@@ -135,26 +131,53 @@ You can find the inputs to the particle filter in the `data` directory.
 
 
 # Steps to implement particle filter
+
 1- Initialisation step: 
 In the initialization step I estimated the car/robot position from GPS input. 
 
+![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/4.png)
 
+
+2-Prediction step: 
+During the prediction step we add the control input (yaw rate & velocity) for all particles.
 
 ![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/5.png)
 
+3-Update step: 
+During the update step, we update our particle weights using map landmark positions and feature measurements.
+Update step has three sub-steps:
+a- Transformation
+
+![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/7.png)
+
+![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/8.png)
+ 
+
+
+b - Association
+
+
+
+c - Update Weights
+
+![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/9.png)
+
+
+4-Resample step: 
+During resampling we will resample M times (M is range of 0 to length_of_particleArray) drawing a particle i (i is the particle index) proportional to its weight . Resampling wheel is used at this step.
 
 ![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/6.png)
  
  
- ![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/7.png)
+ 
  
  ![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/10.png)
  
  
- ![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/8.png)
+
  
  
- ![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/9.png)
+ 
  
 
 # Conclusion:
