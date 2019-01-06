@@ -1,5 +1,6 @@
-# kidnapped vehicle Localization using Particle Filter Project (Term-2 Project-3)
-Self-Driving Car Engineer Nanodegree Program
+# kidnapped vehicle Localization using Particle Filter Project
+Self-Driving Car Engineer Nanodegree Program (Term-2 Project-3)
+
 ![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/0.jpg)
 
 
