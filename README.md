@@ -28,7 +28,7 @@ To compile and run by doing the following from the project top directory.
 
 ## Project description:
 
-![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/3.jpg) 
+![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/3.png) 
 
 # The input data:
 INPUT: values provided by the simulator to the c++ program
@@ -83,7 +83,7 @@ I built out the methods in `particle_filter.cpp` until the simulator output says
 ```
 Success! Your particle filter passed!
 ```
-![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/2.jpg)
+![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/2.png)
 
 # Implementing the Particle Filter
 The directory structure of this repository is as follows:
@@ -110,7 +110,7 @@ root
 ```
 
  
-![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/4.jpg)
+![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/4.png)
  
 
 ## Inputs to the Particle Filter
@@ -134,6 +134,6 @@ You can find the inputs to the particle filter in the `data` directory.
 
 2. **Performance**: My particle filter completed execution within the time of 100 seconds.
 
-![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/2.jpg)
+![](https://github.com/emilkaram/kidnapped-vehicle-Localization-using-Particle-Filter-Project-T2-P3/blob/master/img/2.png)
 
  
