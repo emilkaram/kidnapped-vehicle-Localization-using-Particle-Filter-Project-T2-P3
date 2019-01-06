@@ -127,12 +127,10 @@ You can find the inputs to the particle filter in the `data` directory.
 ## Success Criteria
 If your particle filter passes the current grading code in the simulator (you can make sure you have the current version at any time by doing a `git pull`), then you should pass!
 
-The things the grading code is looking for are:
+ 
 
+# Conclusion:
+1. **Accuracy**: my particle filter successfully localized the vehicle position and yaw to within the values specified in the parameters `max_translation_error` and `max_yaw_error` in `src/main.cpp`.
 
-1. **Accuracy**: your particle filter should localize vehicle position and yaw to within the values specified in the parameters `max_translation_error` and `max_yaw_error` in `src/main.cpp`.
-
-2. **Performance**: your particle filter should complete execution within the time of 100 seconds.
-
-## How to write a README
-A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
+2. **Performance**: My particle filter completed execution within the time of 100 seconds.
+ 
